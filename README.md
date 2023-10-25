@@ -5,6 +5,6 @@ We will specifically be focused on the problem of differentiating the solution o
 Concretely the total variation problem can be stated as
 
 $$
-\text{minimize}_u f(x) = \arg\min_x \frac{1}{2}\|Ax - b\|_2^2 + \lambda \|Dx\|_1
+\text{minimize}_u \quad f(u,x) =  \frac{1}{2}\|Ax - b\|_2^2 + \lambda |u_{i+1}-u_i|
 $$
 
